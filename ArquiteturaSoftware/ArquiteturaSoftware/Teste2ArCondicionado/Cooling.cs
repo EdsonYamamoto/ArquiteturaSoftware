@@ -6,7 +6,8 @@ namespace ArquiteturaSoftware.Teste2ArCondicionado
 {
     class Cooling : IArCondicionado
     {
-        private readonly double _temperature; public Cooling(double temperature)
+        private readonly double _temperature;
+        public Cooling(double temperature)
         {
             _temperature = temperature;
         }
