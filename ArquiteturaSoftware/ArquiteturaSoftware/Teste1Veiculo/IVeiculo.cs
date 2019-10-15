@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EstudoCSharp.veiculo
+namespace ArquiteturaSoftware.Teste1Veiculo
 {
     public interface IVeiculo
     {

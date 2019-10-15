@@ -1,8 +1,9 @@
-﻿using System;
+﻿using ArquiteturaSoftware.Teste2ArCondicionado.factory;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace EstudoCSharp.ArCondicionado
+namespace ArquiteturaSoftware.Teste2ArCondicionado
 {
     public class AirConditioner
     {
@@ -11,11 +12,12 @@ namespace EstudoCSharp.ArCondicionado
         private AirConditioner()
         {
             _factories = new Dictionary<enumerator.Actions, AirConditionerFactory>();
-            
-            foreach (enumerator.Actions action in Enum.GetValues(typeof(enumerator.Actions))) {
+
+            foreach (enumerator.Actions action in Enum.GetValues(typeof(enumerator.Actions)))
+            {
                 string teste = "";
-                teste = "EstudoCSharp.ArCondicionado.factory." + Enum.GetName(typeof(enumerator.Actions), action) + "Factory";
-              
+                teste = "ArquiteturaSoftware.Teste2ArCondicionado.factory." + Enum.GetName(typeof(enumerator.Actions), action) + "Factory";
+                
                 var factory = (AirConditionerFactory)Activator.CreateInstance(Type.GetType(teste));
                 _factories.Add(action, factory);
             }

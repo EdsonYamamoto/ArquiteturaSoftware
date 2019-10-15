@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EstudoCSharp.ArCondicionado
+namespace ArquiteturaSoftware.Teste2ArCondicionado
 {
     public interface IArCondicionado
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EstudoCSharp.veiculo
+namespace ArquiteturaSoftware.Teste1Veiculo
 {
     class Carro : IVeiculo
     {
@@ -11,7 +11,8 @@ namespace EstudoCSharp.veiculo
             return "andando carro";
         }
 
-        public void Teste() {
+        public void Teste()
+        {
             Console.WriteLine("Teste");
         }
     }

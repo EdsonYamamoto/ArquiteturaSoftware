@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EstudoCSharp.ArCondicionado.enumerator
+namespace ArquiteturaSoftware.Teste2ArCondicionado.enumerator
 {
     public enum Actions
     {

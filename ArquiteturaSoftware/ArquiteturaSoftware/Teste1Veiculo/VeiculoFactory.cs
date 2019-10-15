@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EstudoCSharp.veiculo
+namespace ArquiteturaSoftware.Teste1Veiculo
 {
-    public static class VeiculoFactory{
+    public static class VeiculoFactory
+    {
         public static IVeiculo Build(int numberOfWheels)
         {
             switch (numberOfWheels)

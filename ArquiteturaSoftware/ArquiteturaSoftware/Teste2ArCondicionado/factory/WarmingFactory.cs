@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EstudoCSharp.ArCondicionado.factory
+namespace ArquiteturaSoftware.Teste2ArCondicionado.factory
 {
     public class WarmingFactory : AirConditionerFactory
     {

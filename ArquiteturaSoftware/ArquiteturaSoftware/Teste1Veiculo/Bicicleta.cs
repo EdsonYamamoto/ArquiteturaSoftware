@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EstudoCSharp.veiculo
+namespace ArquiteturaSoftware.Teste1Veiculo
 {
-    class Truck : IVeiculo
+    class Bicicleta : IVeiculo
     {
         public string Correr()
         {
-            return "andando truck";
+            return "andando biclicleta";
         }
     }
 }
