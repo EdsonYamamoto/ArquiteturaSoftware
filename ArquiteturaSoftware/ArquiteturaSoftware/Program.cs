@@ -1,4 +1,8 @@
-﻿using System;
+﻿using ArquiteturaSoftware.Teste1Veiculo;
+using ArquiteturaSoftware.Teste2ArCondicionado;
+using ArquiteturaSoftware.Teste3Server;
+using ArquiteturaSoftware.Teste4;
+using System;
 
 namespace ArquiteturaSoftware
 {
@@ -7,31 +11,14 @@ namespace ArquiteturaSoftware
 
         static void Main(string[] args)
         {
-            string teste = Console.ReadLine();
-            var veic = Teste1Veiculo.VeiculoFactory.Build(Convert.ToInt32(teste));
-            if (veic != null) {
-                Console.WriteLine($" You built a {veic.GetType().Name}");
-                Console.WriteLine(veic.Correr());
-                switch (veic.GetType().Name)
-                {
-                    case "Carro":
-                        ((Teste1Veiculo.Carro)veic).Teste();
-                        break;
-                }
-            }
+            //new main1();
 
-            Teste2ArCondicionado.AirConditioner
-                .InitializeFactories()
-                .ExecuteCreation(Teste2ArCondicionado.enumerator.Actions.Cooling, 22.5)
-                .Operate();
+            //new main2();
 
-            Teste2ArCondicionado.AirConditioner
-                .InitializeFactories()
-                .ExecuteCreation(Teste2ArCondicionado.enumerator.Actions.Warming, 25)
-                .Operate();
+            //new main3();
 
+            new main4();
 
-            Teste3Server.Server.EndPoint1(23);
         }
     }
 }

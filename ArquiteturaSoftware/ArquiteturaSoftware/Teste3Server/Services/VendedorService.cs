@@ -7,8 +7,7 @@ using System.Text;
 
 namespace ArquiteturaSoftware.Teste3Server.Services
 {
-    class VendedorService : IVendedor
-    {
+    class VendedorService : IVendedor {
         private IRepository _repository;
 
         public VendedorService()
