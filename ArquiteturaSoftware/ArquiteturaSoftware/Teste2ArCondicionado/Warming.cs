@@ -13,6 +13,16 @@ namespace ArquiteturaSoftware.Teste2ArCondicionado
             _temperature = temperature;
         }
 
+        public object GetObject()
+        {
+            return this;
+        }
+
+        public double GetTemperatura()
+        {
+            return _temperature;
+        }
+
         public void Operate()
         {
             Console.WriteLine($"Warming the room to the required temperature of {_temperature} degrees.");

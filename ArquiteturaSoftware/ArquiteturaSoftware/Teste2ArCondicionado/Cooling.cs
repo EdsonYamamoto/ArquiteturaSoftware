@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ArquiteturaSoftware.Teste2ArCondicionado
 {
-    class Cooling : IArCondicionado
+    public class Cooling : IArCondicionado
     {
         private readonly double _temperature;
         public Cooling(double temperature)
@@ -12,9 +12,18 @@ namespace ArquiteturaSoftware.Teste2ArCondicionado
             _temperature = temperature;
         }
 
+        public object GetObject()
+        {
+            return this;
+        }
+
         public void Operate()
         {
             Console.WriteLine($"Cooling the room to the required temperature of {_temperature} degrees");
+        }
+        public double GetTemperatura()
+        {
+            return _temperature;
         }
     }
 }

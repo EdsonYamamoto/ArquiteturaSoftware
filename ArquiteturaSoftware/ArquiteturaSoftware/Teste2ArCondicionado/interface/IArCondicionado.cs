@@ -7,5 +7,8 @@ namespace ArquiteturaSoftware.Teste2ArCondicionado
     public interface IArCondicionado
     {
         void Operate();
+        Object GetObject();
+
+        double GetTemperatura();
     }
 }

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArquiteturaSoftware", "ArquiteturaSoftware\ArquiteturaSoftware.csproj", "{663B591C-609D-4CEC-8182-0939FA8AC255}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArquiteturaSoftware", "ArquiteturaSoftware\ArquiteturaSoftware.csproj", "{663B591C-609D-4CEC-8182-0939FA8AC255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{55ACA17C-199D-459B-AB02-F0FE0A8866FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste2", "Teste2\Teste2.csproj", "{6F1504D2-3B0B-4E72-89D8-B1A7464C0FA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{663B591C-609D-4CEC-8182-0939FA8AC255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{663B591C-609D-4CEC-8182-0939FA8AC255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{663B591C-609D-4CEC-8182-0939FA8AC255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55ACA17C-199D-459B-AB02-F0FE0A8866FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55ACA17C-199D-459B-AB02-F0FE0A8866FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55ACA17C-199D-459B-AB02-F0FE0A8866FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55ACA17C-199D-459B-AB02-F0FE0A8866FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F1504D2-3B0B-4E72-89D8-B1A7464C0FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F1504D2-3B0B-4E72-89D8-B1A7464C0FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F1504D2-3B0B-4E72-89D8-B1A7464C0FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F1504D2-3B0B-4E72-89D8-B1A7464C0FA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

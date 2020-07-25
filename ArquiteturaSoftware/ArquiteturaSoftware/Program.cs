@@ -2,6 +2,8 @@
 using ArquiteturaSoftware.Teste2ArCondicionado;
 using ArquiteturaSoftware.Teste3Server;
 using ArquiteturaSoftware.Teste4;
+using ArquiteturaSoftware.Teste5;
+using ArquiteturaSoftware.Teste6;
 using System;
 
 namespace ArquiteturaSoftware
@@ -17,7 +19,11 @@ namespace ArquiteturaSoftware
 
             //new main3();
 
-            new main4();
+            //new main4();
+
+            //new main5();
+
+            new main6();
 
         }
     }
